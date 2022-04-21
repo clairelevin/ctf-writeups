@@ -1,0 +1,35 @@
+# Tiny (UMDCTF 2022)
+
+This challenge gives us the following QR code:
+
+![](/ctf_screenshots/tiny_qr.png?raw=true)
+ 
+Decoding the QR code reveals a long base64 string:
+
+`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`
+
+Decoding the base64 produces a file compressed in the XZ format. After decompressing the file with the unxz command, the resulting file is revealed to be a binary using the MIPS architecture.
+ 
+ ![](/ctf_screenshots/tiny_unxz.png?raw=true)
+ 
+In Binary Ninja, we can see the two subroutines that construct the flag. The first subroutine loops through a given string and XORs each character with the loop index, and the second subroutine loops through an array of values, shifts each value right by 2, and XORs each value with 2.
+ 
+ ![](/ctf_screenshots/tiny_binja_1.png?raw=true)
+ ![](/ctf_screenshots/tiny_binja_2.png?raw=true)
+ 
+The following script can be used to recreate this process:
+
+```
+s = b"ulf\`pc}o;pUf<\`Q>}N"
+out = bytearray()
+for i in range(len(s)):
+    out.append(i ^ s[i])
+
+s2 = [0x000001b2, 0x00000176, 0x000001da,0x000001aa, 0x000000c6, 0x00000176, 0x000001c2,0x0000010a, 0x0000019a, 0x000000ce, 0x000001b6,0x000001fe]
+
+for i in range(len(s2)):
+    out.append((s2[i] >> 2 ^ 2))
+print(out)
+```
+
+This script successfully prints out the flag: `umdctf{h3y_m0m_1m_n_th3_r@d1o}`
