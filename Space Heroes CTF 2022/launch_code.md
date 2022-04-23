@@ -1,4 +1,4 @@
-Launch Code (Space Heroes CTF 2022)
+# Launch Code (Space Heroes CTF 2022)
 We are given a program that prints the following:
 
 ![](/ctf_screenshots/launchcode_1.png)
